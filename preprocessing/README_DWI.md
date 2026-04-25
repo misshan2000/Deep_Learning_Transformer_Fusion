@@ -11,7 +11,12 @@ The workflow mainly includes:
 - Automatic organization of generated parameter maps into dedicated folders.
 - Splitting of 4D DWI/IVIM images according to predefined b values.
 - Interpretation of microvascular imaging parameters, including `vm`, `vs`, and `ANB`.
+## Installation
+Install the required dependencies using:
+```
+pip install -r requirements.txt
 
+```
 ## Main Functions
 
 The notebook uses functions from the `pixelmed_calc` package:
